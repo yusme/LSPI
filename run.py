@@ -32,7 +32,6 @@ gamma=0.99
 mean_reward1=[]
 mean_reward2=[]
 
-
 def test_policy(policy,env, state,agent):
    
     print ("Test")
@@ -45,9 +44,8 @@ def test_policy(policy,env, state,agent):
         for i in range(5000):
             env.render()
 
-
-            index = policy.get_actions(state)  # TODO: valication for random actions
-            #action = policy.actions[index[0]]  # todo. take just one action
+            index = policy.get_actions(state)  
+            #action = policy.actions[index[0]]  
             action=agent._act(state)
 
 
@@ -58,12 +56,8 @@ def test_policy(policy,env, state,agent):
             Best_policy=0
 
             if done:
-                print ("done***********",policy.weights)
-
                 Best_policy=agent.policy
-                print ("done***********", total_reward)
-
-
+                print("done")
                 break
 
     return total_reward, Best_policy
@@ -127,7 +121,6 @@ def _initial_sample2(env, memory,agent ):
 
 
             policy = agent.train(sample, lspi_interation, important_sampling)
-
             total_reward, policy_test =test_policy(policy, env, state,agent)
 
 
@@ -333,8 +326,7 @@ def _reuse_sample(env, memory):
 
 
 def exmaple_RBF():
-    # ----- 1D Example ------------------------------------------------
-
+    
     rbf= BasisFunction2(1, 13, 1)
     #rbf =BasisFunction()
     n = 500
