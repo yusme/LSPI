@@ -1,10 +1,5 @@
 import numpy as np
 
-"""
-make sure that you can use features  for contunue ans discrete space
-
-"""
-
 
 class Basis_Function:
     def __init__(self, input_dim, num_means, num_actions, gamma ):
