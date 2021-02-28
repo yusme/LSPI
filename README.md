@@ -13,7 +13,7 @@ https://www2.cs.duke.edu/research/AI/LSPI/nips01.pdf
 
 - Solving Acrobot env with LSPI
 
-- ![](Acrobot.gif)
+![](Acrobot.gif)
 
 
 - Solving mountainCar-v0 env with LSPI
