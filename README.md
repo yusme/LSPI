@@ -19,7 +19,7 @@ LSPI uses LSQ to compute approximate Q function
 
 
 - Solving Acrobot env with LSPI 
--
+
 ![](Acrobot.gif)
 
 
