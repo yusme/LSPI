@@ -8,9 +8,6 @@ https://www2.cs.duke.edu/research/AI/LSPI/nips01.pdf
  - LSPI uses LSQ to compute approximate Q function
 
 
-#ToDoS
-- Weighted importance sampling for off-policy
-
 - Solving Acrobot env with LSPI
 
 ![](Acrobot.gif)
@@ -21,3 +18,5 @@ https://www2.cs.duke.edu/research/AI/LSPI/nips01.pdf
 ![](MountainCar.gif)
 
 
+#ToDoS
+- Weighted importance sampling for off-policy
