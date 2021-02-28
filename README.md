@@ -4,8 +4,8 @@
 
 https://www2.cs.duke.edu/research/AI/LSPI/nips01.pdf
 
- LSQ: Learning the State-Action Value Function
- LSPI uses LSQ to compute approximate Q function
+ - LSQ: Learning the State-Action Value Function
+ - LSPI uses LSQ to compute approximate Q function
 
 
 #ToDoS
