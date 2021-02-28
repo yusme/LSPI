@@ -72,7 +72,7 @@ class Memory:
          return [current_state,actions,rewards,next_state,done]
 
      def select_sample(self,batch_size):
-         print "container size",self.containerSize
+         #print "container size",self.containerSize
          sample = random.sample(self.container, batch_size)
          return self.transform_sample(sample,batch_size)
 
