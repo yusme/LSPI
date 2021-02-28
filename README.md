@@ -7,3 +7,4 @@ https://www2.cs.duke.edu/research/AI/LSPI/nips01.pdf
 
 #ToDoS
 - Weighted importance sampling for off-policy
+-prueba
