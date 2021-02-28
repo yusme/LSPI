@@ -11,4 +11,10 @@ https://www2.cs.duke.edu/research/AI/LSPI/nips01.pdf
 #ToDoS
 - Weighted importance sampling for off-policy
 
+-Solving Acrobot env with LSPI
+- ![](Acrobot.gif)
+
+-Solving mountainCar-v0 env with LSPI
+- ![](MountainCar.gif)
+
 - 
