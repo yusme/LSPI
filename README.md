@@ -1,6 +1,7 @@
 # LSPI  Least-Squares Policy Iteration
 
 (LSPI) reinforcement learning algorithm is a model-free, off-policy method
+
 https://www2.cs.duke.edu/research/AI/LSPI/nips01.pdf
 
 The goal of these algorithms is to perform
@@ -17,8 +18,8 @@ LSPI uses LSQ to compute approximate Q function
 
 
 
-- Solving Acrobot env with LSPI
-
+- Solving Acrobot env with LSPI 
+-
 ![](Acrobot.gif)
 
 
@@ -27,5 +28,5 @@ LSPI uses LSQ to compute approximate Q function
 ![](MountainCar.gif)
 
 
-#ToDoS
+## TODO
 - Weighted importance sampling for off-policy
